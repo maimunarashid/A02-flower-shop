@@ -121,6 +121,51 @@ nav{
 .image-1{
     margin-bottom: 25px;
 }
+/* section-6 */
+.section-6{
+    background-image: url('../assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-6-container{
+    padding: 200px 305px 200px 305px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-6-h1{
+    padding: 0px 122px 23px 122px;
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.form{
+    display: inline;
+    width: 100%;
+    margin:0 60px ;
+}
+input:hover{
+   border: none; 
+}
+.form input{
+border: none;
+background-color:white ;
+display: inline;
+width: 50%;
+padding: 20px;
+}
+.form input[type="submit"]{
+    background-color: #E95A08;
+    padding: 20px;
+    border: none;
+    margin-bottom: 30px;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+    width: 25%;
+    display: inline;
+}
 /* @import screen and (max-width: 393px){
 
 } */
