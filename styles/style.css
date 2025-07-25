@@ -109,6 +109,18 @@ nav{
    top: -100px;
    left: 410px;
 }
+/* section-5 */
+.section-5{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+}
+.section-5-images{
+    border-radius: 10px;
+}
+.image-1{
+    margin-bottom: 25px;
+}
 /* @import screen and (max-width: 393px){
 
 } */
